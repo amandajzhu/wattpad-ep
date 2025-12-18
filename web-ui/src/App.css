@@ -1,5 +1,17 @@
+@font-face {
+  font-family: "DIN Next Rounded LT W01 Regular";
+  src: url("https://db.onlinewebfonts.com/t/ab596f21664c5582567537d241e2a53e.eot");
+  src: url("https://db.onlinewebfonts.com/t/ab596f21664c5582567537d241e2a53e.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/ab596f21664c5582567537d241e2a53e.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/ab596f21664c5582567537d241e2a53e.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/ab596f21664c5582567537d241e2a53e.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/ab596f21664c5582567537d241e2a53e.svg#DIN Next Rounded LT W01 Regular")format("svg");
+}
+
 .App {
   text-align: center;
+  font-family: "DIN Next Rounded LT W01 Regular";
+  box-sizing: border-box;
 }
 
 .App-logo {
@@ -7,21 +19,22 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #FF500A;
+  position: relative;
 }
 
 .App-link {
