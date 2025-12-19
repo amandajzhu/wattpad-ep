@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.5fcc54ae.css",
-    "main.js": "/static/js/main.ca72257d.js",
-    "static/js/453.a4fe98c9.chunk.js": "/static/js/453.a4fe98c9.chunk.js",
-    "static/media/wattpad-logo.png": "/static/media/wattpad-logo.82166f201499cc8f758c.png",
-    "index.html": "/index.html",
-    "main.5fcc54ae.css.map": "/static/css/main.5fcc54ae.css.map",
-    "main.ca72257d.js.map": "/static/js/main.ca72257d.js.map",
-    "453.a4fe98c9.chunk.js.map": "/static/js/453.a4fe98c9.chunk.js.map"
+    "main.css": "/wattpad-ep/static/css/main.5fcc54ae.css",
+    "main.js": "/wattpad-ep/static/js/main.109031ac.js",
+    "static/js/453.a4fe98c9.chunk.js": "/wattpad-ep/static/js/453.a4fe98c9.chunk.js",
+    "static/media/wattpad-logo.png": "/wattpad-ep/static/media/wattpad-logo.82166f201499cc8f758c.png",
+    "index.html": "/wattpad-ep/index.html",
+    "main.5fcc54ae.css.map": "/wattpad-ep/static/css/main.5fcc54ae.css.map",
+    "main.109031ac.js.map": "/wattpad-ep/static/js/main.109031ac.js.map",
+    "453.a4fe98c9.chunk.js.map": "/wattpad-ep/static/js/453.a4fe98c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fcc54ae.css",
-    "static/js/main.ca72257d.js"
+    "static/js/main.109031ac.js"
   ]
 }
