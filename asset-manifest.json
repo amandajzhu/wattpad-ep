@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.5fcc54ae.css",
-    "main.js": "/static/js/main.ef697501.js",
+    "main.js": "/static/js/main.ca72257d.js",
     "static/js/453.a4fe98c9.chunk.js": "/static/js/453.a4fe98c9.chunk.js",
     "static/media/wattpad-logo.png": "/static/media/wattpad-logo.82166f201499cc8f758c.png",
     "index.html": "/index.html",
     "main.5fcc54ae.css.map": "/static/css/main.5fcc54ae.css.map",
-    "main.ef697501.js.map": "/static/js/main.ef697501.js.map",
+    "main.ca72257d.js.map": "/static/js/main.ca72257d.js.map",
     "453.a4fe98c9.chunk.js.map": "/static/js/453.a4fe98c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fcc54ae.css",
-    "static/js/main.ef697501.js"
+    "static/js/main.ca72257d.js"
   ]
 }
