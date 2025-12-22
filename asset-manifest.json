@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/wattpad-ep/static/css/main.5fcc54ae.css",
-    "main.js": "/wattpad-ep/static/js/main.109031ac.js",
+    "main.css": "/wattpad-ep/static/css/main.556450dd.css",
+    "main.js": "/wattpad-ep/static/js/main.c3e7b100.js",
     "static/js/453.a4fe98c9.chunk.js": "/wattpad-ep/static/js/453.a4fe98c9.chunk.js",
-    "static/media/wattpad-logo.png": "/wattpad-ep/static/media/wattpad-logo.82166f201499cc8f758c.png",
+    "static/media/solve-of-the-sprint.png": "/wattpad-ep/static/media/solve-of-the-sprint.dff4819623bef8a1e213.png",
     "index.html": "/wattpad-ep/index.html",
-    "main.5fcc54ae.css.map": "/wattpad-ep/static/css/main.5fcc54ae.css.map",
-    "main.109031ac.js.map": "/wattpad-ep/static/js/main.109031ac.js.map",
+    "main.556450dd.css.map": "/wattpad-ep/static/css/main.556450dd.css.map",
+    "main.c3e7b100.js.map": "/wattpad-ep/static/js/main.c3e7b100.js.map",
     "453.a4fe98c9.chunk.js.map": "/wattpad-ep/static/js/453.a4fe98c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fcc54ae.css",
-    "static/js/main.109031ac.js"
+    "static/css/main.556450dd.css",
+    "static/js/main.c3e7b100.js"
   ]
 }
