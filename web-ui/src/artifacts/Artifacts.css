@@ -1,170 +1,207 @@
+.artifact-dialog {
+  position: fixed;
+  align-self: center;
+  justify-self: center;
+  height: 80vh;
+  aspect-ratio: 1 / 1;
+  background-color: #fdd9af;
+  border-radius: 100%;
+  border-width: 0;
+  box-shadow: 0 0 24px 24px #fdd9af;
+  padding: 24px;
+  z-index: 1;
+}
+
+dialog::backdrop {
+  background-color: rgba(49, 49, 49, 0.5);
+}
+
+.close-button {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  border-radius: 100%;
+  width: fit-content;
+  aspect-ratio: 1 / 1;
+  padding: 12px;
+  border: none;
+  box-shadow: 0 0 8px 8px #ff500a;
+  background-color: #ff500a;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.close-button:hover {
+  cursor: pointer;
+  background-color: #e0411e;
+  box-shadow: 0 0 12px 12px #e0411e;
+}
+
 .artifacts {
-    position: absolute;
-    top: 0;
-    width: calc(100% - 96px);
-    height: calc(100% - 96px);
-    display: grid;
-    grid-template-columns: 40% 40%;
-    gap: 0 20%;
-    padding: 48px;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 96px);
+  height: calc(100% - 96px);
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 0 20%;
+  padding: 48px;
 }
 
 .artifacts button {
-    height: 200px;
-    width: 200px;
-    border-radius: 100%;
-    border: none;
-    font-size: medium;
-    
-    background-color: #fcd8ae !important;
-    box-shadow: 0 0 24px 24px #fcd8ae !important;
+  height: 224px;
+  width: 224px;
+  border-radius: 100%;
+  border: none;
+  font-size: medium;
 }
 
 .artifacts button:hover {
-    cursor: pointer;
-    background-color: #fa874a;
-    box-shadow: 0 0 24px 24px #fa874a;
+  cursor: pointer;
+  background-color: #fa874a;
+  box-shadow: 0 0 32px 32px #fa874a;
 }
 
 .artifact1 {
-    align-self: flex-start;
-    justify-self: center;
-    background-color: #c4f4e5;
-    box-shadow: 0 0 24px 24px #c4f4e5;
-    animation: float1 6s ease-in-out infinite;
+  align-self: flex-start;
+  justify-self: center;
+  animation: float1 6s ease-in-out infinite;
+  background-color: #fcd8ae;
+  box-shadow: 0 0 24px 24px #fcd8ae;
 }
 
 .artifact2 {
-    align-self: flex-start;
-    justify-self: center;
-    background-color: #f6ccd7;
-    box-shadow: 0 0 24px 24px #f6ccd7;
-    animation: float2 6s ease-in-out infinite;
+  align-self: flex-start;
+  justify-self: center;
+  animation: float2 6s ease-in-out infinite;
+  background-color: #fcac7b;
+  box-shadow: 0 0 24px 24px #fcac7b;
 }
 
 .artifact3 {
-    align-self: center;
-    justify-self: left;
-    background-color: #fff5af;
-    box-shadow: 0 0 24px 24px #fff5af;
-    animation: float3 6s ease-in-out infinite;
+  align-self: center;
+  justify-self: left;
+  animation: float3 6s ease-in-out infinite;
+  background-color: #fcac7b;
+  box-shadow: 0 0 24px 24px #fcac7b;
 }
 
 .artifact4 {
-    align-self: center;
-    justify-self: right;
-    background-color: #b8c7f4;
-    box-shadow: 0 0 24px 24px #b8c7f4;
-    animation: float4 6s ease-in-out infinite;
+  align-self: center;
+  justify-self: right;
+  animation: float4 6s ease-in-out infinite;
+  background-color: #fcd8ae;
+  box-shadow: 0 0 24px 24px #fcd8ae;
 }
 
 .artifact5 {
-    align-self: flex-end;
-    justify-self: center;
-    background-color: #f6ccd7;
-    box-shadow: 0 0 24px 24px #f6ccd7;
-    animation: float2 6s ease-in-out infinite;
+  align-self: flex-end;
+  justify-self: center;
+  animation: float2 6s ease-in-out infinite;
+  background-color: #fcd8ae;
+  box-shadow: 0 0 24px 24px #fcd8ae;
 }
 
 .artifact6 {
-    align-self: flex-end;
-    justify-self: center;
-    background-color: #c4f4e5;
-    box-shadow: 0 0 24px 24px #c4f4e5;
-    animation: float1 6s ease-in-out infinite;
+  align-self: flex-end;
+  justify-self: center;
+  animation: float1 6s ease-in-out infinite;
+  background-color: #fcac7b;
+  box-shadow: 0 0 24px 24px #fcac7b;
 }
 
 @keyframes float1 {
-    0% {
-        transform: translateX(0) translateY(-10px);
-    }
+  0% {
+    transform: translateX(0) translateY(-10px);
+  }
 
-    25% {
-        transform: translateX(10px) translateY(0);
-    }
+  25% {
+    transform: translateX(10px) translateY(0);
+  }
 
-    50% {
-        transform: translateX(0) translateY(10px);
-    }
+  50% {
+    transform: translateX(0) translateY(10px);
+  }
 
-    75% {
-        transform: translateX(-10px) translateY(0);
-    }
+  75% {
+    transform: translateX(-10px) translateY(0);
+  }
 
-    100% {
-        transform: translateX(0) translateY(-10px);
-    }
+  100% {
+    transform: translateX(0) translateY(-10px);
+  }
 }
 
 @keyframes float2 {
-    0% {
-        transform: translateX(10px) translateY(0);
-    }
+  0% {
+    transform: translateX(10px) translateY(0);
+  }
 
-    25% {
-        transform: translateX(0) translateY(10px);
-    }
+  25% {
+    transform: translateX(0) translateY(10px);
+  }
 
-    50% {
-        transform: translateX(-10px) translateY(0);
-    }
+  50% {
+    transform: translateX(-10px) translateY(0);
+  }
 
-    75% {
-        transform: translateX(0) translateY(-10px);
-    }
+  75% {
+    transform: translateX(0) translateY(-10px);
+  }
 
-    100% {
-        transform: translateX(10px) translateY(0);
-    }
+  100% {
+    transform: translateX(10px) translateY(0);
+  }
 }
 
 @keyframes float3 {
-    0% {
-        transform: translateX(0) translateY(10px);
-    }
+  0% {
+    transform: translateX(0) translateY(10px);
+  }
 
-    25% {
-        transform: translateX(-10px) translateY(0);
-    }
+  25% {
+    transform: translateX(-10px) translateY(0);
+  }
 
-    50% {
-        transform: translateX(0) translateY(-10px);
-    }
+  50% {
+    transform: translateX(0) translateY(-10px);
+  }
 
-    75% {
-        transform: translateX(10px) translateY(0);
-    }
+  75% {
+    transform: translateX(10px) translateY(0);
+  }
 
-    100% {
-        transform: translateX(0) translateY(10px);
-    }
+  100% {
+    transform: translateX(0) translateY(10px);
+  }
 }
 
 @keyframes float4 {
-    0% {
-        transform: translateX(-10px) translateY(0);
-    }
+  0% {
+    transform: translateX(-10px) translateY(0);
+  }
 
-    25% {
-        transform: translateX(0) translateY(-10px);
-    }
+  25% {
+    transform: translateX(0) translateY(-10px);
+  }
 
-    50% {
-        transform: translateX(10px) translateY(0);
-    }
+  50% {
+    transform: translateX(10px) translateY(0);
+  }
 
-    75% {
-        transform: translateX(0) translateY(10px);
-    }
+  75% {
+    transform: translateX(0) translateY(10px);
+  }
 
-    100% {
-        transform: translateX(-10px) translateY(0);
-    }
+  100% {
+    transform: translateX(-10px) translateY(0);
+  }
 }
 
-@media (max-width: 999px) or (max-height: 799px) {
-    .artifacts button {
-        width: 160px;
-        height: 160px;
-    }
+@media (max-width: 1200px) or (max-height: 800px) {
+  .artifacts button {
+    width: 180px;
+    height: 180px;
+  }
 }
