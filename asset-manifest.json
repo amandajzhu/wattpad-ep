@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/wattpad-ep/static/css/main.556450dd.css",
-    "main.js": "/wattpad-ep/static/js/main.c3e7b100.js",
+    "main.css": "/wattpad-ep/static/css/main.8c881a2b.css",
+    "main.js": "/wattpad-ep/static/js/main.3d1d9ce8.js",
     "static/js/453.a4fe98c9.chunk.js": "/wattpad-ep/static/js/453.a4fe98c9.chunk.js",
+    "static/media/mentorship-program-cohort-16.pdf": "/wattpad-ep/static/media/mentorship-program-cohort-16.ae63d14fbd6c3684f19c.pdf",
     "static/media/solve-of-the-sprint.png": "/wattpad-ep/static/media/solve-of-the-sprint.dff4819623bef8a1e213.png",
+    "static/media/30-60-90-plan.pdf": "/wattpad-ep/static/media/30-60-90-plan.93f9f07ca7fd94c6c481.pdf",
+    "static/media/resume.pdf": "/wattpad-ep/static/media/resume.d80dca264f16db5903ac.pdf",
     "index.html": "/wattpad-ep/index.html",
-    "main.556450dd.css.map": "/wattpad-ep/static/css/main.556450dd.css.map",
-    "main.c3e7b100.js.map": "/wattpad-ep/static/js/main.c3e7b100.js.map",
+    "main.8c881a2b.css.map": "/wattpad-ep/static/css/main.8c881a2b.css.map",
+    "main.3d1d9ce8.js.map": "/wattpad-ep/static/js/main.3d1d9ce8.js.map",
     "453.a4fe98c9.chunk.js.map": "/wattpad-ep/static/js/453.a4fe98c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.556450dd.css",
-    "static/js/main.c3e7b100.js"
+    "static/css/main.8c881a2b.css",
+    "static/js/main.3d1d9ce8.js"
   ]
 }
