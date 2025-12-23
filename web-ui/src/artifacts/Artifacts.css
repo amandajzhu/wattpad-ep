@@ -1,15 +1,19 @@
-.artifact-dialog {
+.artifact-dialog[open] {
   position: fixed;
-  align-self: center;
-  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 80vh;
+  width: 80vh;
   aspect-ratio: 1 / 1;
   background-color: #fdd9af;
   border-radius: 100%;
   border-width: 0;
   box-shadow: 0 0 24px 24px #fdd9af;
   padding: 24px;
-  z-index: 1;
+  line-height: 24px;
+  overflow: scroll;
 }
 
 dialog::backdrop {
@@ -34,8 +38,8 @@ dialog::backdrop {
 
 .close-button:hover {
   cursor: pointer;
-  background-color: #e0411e;
-  box-shadow: 0 0 12px 12px #e0411e;
+  background-color: #fa874a;
+  box-shadow: 0 0 12px 12px #fa874a;
 }
 
 .artifacts {
@@ -199,9 +203,22 @@ dialog::backdrop {
   }
 }
 
-@media (max-width: 1200px) or (max-height: 800px) {
+@media (min-width: 1300px) {
+  .artifacts {
+    width: calc(100% - 192px);
+    margin: 0 48px;
+  }
+}
+
+@media (max-width: 1200px) or (max-height: 840px) {
   .artifacts button {
     width: 180px;
     height: 180px;
+  }
+}
+
+@media (max-width: 700px) or (max-height: 840px) {
+  .artifact-dialog[open] {
+    font-size: 14px;
   }
 }

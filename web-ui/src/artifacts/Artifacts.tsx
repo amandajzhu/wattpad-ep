@@ -14,7 +14,6 @@ function Artifacts() {
   return (
     <div className="artifacts-container">
       <dialog className="artifact-dialog">
-        Artifact {artifactId}
         <ArtifactContent artifactId={artifactId as number} />
         <button className="close-button" onClick={() => dialog?.close()}>
           Close
