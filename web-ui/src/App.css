@@ -19,20 +19,19 @@
 }
 
 .App-header h1 {
-  margin: 16px;
+  margin-block: 8px;
 }
 
 .App-header h2 {
-  margin-bottom: 0;
+  margin-block: 8px;
 }
 
-.App-header h4 {
-  margin-bottom: 16px;
+.App-header h3 {
+  margin-block: 16px;
 }
 
 .App-header h6 {
-  margin-top: 16px;
-  margin-bottom: 24px;
+  margin-block: 0;
 }
 
 .header-bubble {
@@ -46,6 +45,53 @@
   justify-content: center;
   flex-direction: column;
   padding: 48px;
+}
+
+.term-buttons-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-top: 8px;
+  margin-bottom: 40px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.term-buttons-wrapper {
+  display: flex;
+  gap: 56px;
+}
+
+.term-button {
+  font-size: large;
+  font-weight: bold;
+  height: 56px;
+  width: 56px;
+  padding: 16px;
+  background-color: #38d2c2;
+  box-shadow: 0 0 16px 16px #38d2c2;
+  border-radius: 100%;
+  border: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.term-button:hover {
+  cursor: pointer;
+  background-color: #9be5d2;
+  box-shadow: 0 0 16px 16px #9be5d2;
+}
+
+.term-button-active,
+.term-button-active:hover {
+  height: 64px;
+  width: 64px;
+  background-color: #9be5d2;
+  box-shadow: 0 0 20px 20px #9be5d2;
 }
 
 .mobile-warning {

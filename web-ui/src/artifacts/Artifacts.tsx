@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Artifacts.css";
 import ArtifactContent from "./ArtifactContent";
 
-function Artifacts() {
+function Artifacts({ term }: { term: number }) {
   const dialog = document.querySelector("dialog");
   const [artifactId, setArtifactId] = useState<number | null>(null);
 
