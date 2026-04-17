@@ -5,12 +5,21 @@ import mentorshipProgram from "../assets/mentorship-program-cohort-16.pdf";
 import solveOfTheSprint from "../assets/solve-of-the-sprint.png";
 import resume from "../assets/resume.pdf";
 
+export const titles: string[] = [
+  "About this Webpage",
+  "30-60-90 Day Plan",
+  "Mentorship Program",
+  "Wattpad.com",
+  "Solve of The Sprint",
+  "Updated Resume",
+];
+
 function ArtifactContent({ artifactId }: { artifactId: number }) {
   const artifactContents: { [key: number]: ReactElement } = {
     1: (
       <div className="artifact-container">
         <div className="artifact-content">
-          <h2>About this Webpage</h2>
+          <h2>{titles[0]}</h2>
           <p>
             This webpage showcases the skills and knowledge I learned throughout
             my work term. I built this webpage using React and TypeScript, both
@@ -45,7 +54,7 @@ function ArtifactContent({ artifactId }: { artifactId: number }) {
     2: (
       <div className="artifact-container">
         <div className="artifact-content">
-          <h2>30-60-90 Day Plan</h2>
+          <h2>{titles[1]}</h2>
           <p>
             As part of my onboarding, I created a 30-60-90 day plan to kickstart
             my work term with clear expectations. When creating my plan, I
@@ -82,7 +91,7 @@ function ArtifactContent({ artifactId }: { artifactId: number }) {
     3: (
       <div className="artifact-container">
         <div className="artifact-content">
-          <h2>Mentorship Program</h2>
+          <h2>{titles[2]}</h2>
           <p>
             The Engineering and Data department runs a mentorship program to
             encourage learning and connecting with other department teams. I
@@ -121,7 +130,7 @@ function ArtifactContent({ artifactId }: { artifactId: number }) {
     4: (
       <div className="artifact-container">
         <div className="artifact-content">
-          <h2>Wattpad.com</h2>
+          <h2>{titles[3]}</h2>
           <p>
             As a member of the Web team, my main responsibility is working on
             Wattpad's web app,{" "}
@@ -163,7 +172,7 @@ function ArtifactContent({ artifactId }: { artifactId: number }) {
     5: (
       <div className="artifact-container">
         <div className="artifact-content">
-          <h2>Solve of The Sprint</h2>
+          <h2>{titles[4]}</h2>
           <p>
             As part of my team's sprint retrospectives, each member shares a
             bugfix, feature, or anything they're proud of that they worked on
@@ -201,7 +210,7 @@ function ArtifactContent({ artifactId }: { artifactId: number }) {
     6: (
       <div className="artifact-container">
         <div className="artifact-content">
-          <h2>Updated Resume</h2>
+          <h2>{titles[5]}</h2>
           <p>
             Click the button below to open my updated resume, detailing my
             experience at Wattpad over the past work term.

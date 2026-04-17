@@ -52,6 +52,10 @@ dialog::backdrop {
   gap: 0 20%;
   padding: 48px;
 }
+.four-artifacts {
+  grid-template-columns: 30% 30%;
+  gap: 0 40%;
+}
 
 .artifacts button {
   height: 224px;
@@ -90,6 +94,10 @@ dialog::backdrop {
   background-color: #fcac7b;
   box-shadow: 0 0 24px 24px #fcac7b;
 }
+.four-artifacts .artifact3 {
+  align-self: flex-end;
+  justify-self: center;
+}
 
 .artifact4 {
   align-self: center;
@@ -97,6 +105,10 @@ dialog::backdrop {
   animation: float4 6s ease-in-out infinite;
   background-color: #fcd8ae;
   box-shadow: 0 0 24px 24px #fcd8ae;
+}
+.four-artifacts .artifact4 {
+  align-self: flex-end;
+  justify-self: center;
 }
 
 .artifact5 {
