@@ -60,7 +60,7 @@
 
 .term-buttons-wrapper {
   display: flex;
-  gap: 56px;
+  gap: 60px;
 }
 
 .term-button {
@@ -88,10 +88,8 @@
 
 .term-button-active,
 .term-button-active:hover {
-  height: 64px;
-  width: 64px;
   background-color: #9be5d2;
-  box-shadow: 0 0 20px 20px #9be5d2;
+  box-shadow: 0 0 24px 24px #9be5d2;
 }
 
 .mobile-warning {

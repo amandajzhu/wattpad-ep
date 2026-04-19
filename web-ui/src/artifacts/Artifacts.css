@@ -55,6 +55,8 @@ dialog::backdrop {
 .four-artifacts {
   grid-template-columns: 30% 30%;
   gap: 0 40%;
+  height: calc(100% - 128px);
+  padding-block: 64px;
 }
 
 .artifacts button {
@@ -63,6 +65,10 @@ dialog::backdrop {
   border-radius: 100%;
   border: none;
   font-size: medium;
+}
+.four-artifacts button {
+  height: 248px;
+  width: 248px;
 }
 
 .artifacts button:hover {

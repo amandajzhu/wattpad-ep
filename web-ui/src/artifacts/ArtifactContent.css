@@ -38,7 +38,8 @@
   margin: 4px;
 }
 
-.artifact-link {
+.artifact-link,
+.artifact-link-disabled {
   font-size: large;
   font-weight: bold;
   height: 100px;
@@ -58,6 +59,10 @@
 .artifact-link:hover {
   background-color: #9be5d2;
   box-shadow: 0 0 20px 20px #9be5d2;
+}
+
+.artifact-link-disabled {
+  filter: saturate(0);
 }
 
 .artifact-image {

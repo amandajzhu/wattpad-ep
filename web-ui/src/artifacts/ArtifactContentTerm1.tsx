@@ -1,9 +1,7 @@
 import { ReactElement } from "react";
 import "./ArtifactContent.css";
-import onboardingPlan from "../assets/30-60-90-plan.pdf";
-import mentorshipProgram from "../assets/mentorship-program-cohort-16.pdf";
 import solveOfTheSprint from "../assets/solve-of-the-sprint.png";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/resume-term-1.pdf";
 
 export const titles: string[] = [
   "About this Webpage",
@@ -73,14 +71,9 @@ function ArtifactContent({ artifactId }: { artifactId: number }) {
           <div className="artifact-bottom-container">
             <div className="decorative-bubble1" />
             <div className="decorative-bubble2" />
-            <a
-              href={onboardingPlan}
-              target="_blank"
-              rel="noreferrer"
-              className="artifact-link"
-            >
-              Open 30-60-90 Day Plan
-            </a>
+            <span className="artifact-link-disabled">
+              "30-60-90 Day Plan" is no longer available
+            </span>
             <div className="decorative-bubble1" />
             <div className="decorative-bubble2" />
           </div>
@@ -112,14 +105,9 @@ function ArtifactContent({ artifactId }: { artifactId: number }) {
           <div className="artifact-bottom-container">
             <div className="decorative-bubble1" />
             <div className="decorative-bubble2" />
-            <a
-              href={mentorshipProgram}
-              target="_blank"
-              rel="noreferrer"
-              className="artifact-link"
-            >
-              Open Mentorship Presentation
-            </a>
+            <span className="artifact-link-disabled">
+              "Mentorship Presentation" is no longer available
+            </span>
             <div className="decorative-bubble1" />
             <div className="decorative-bubble2" />
           </div>
