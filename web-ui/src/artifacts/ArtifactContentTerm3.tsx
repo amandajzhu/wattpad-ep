@@ -18,14 +18,15 @@ function ArtifactContent({ artifactId }: { artifactId: number }) {
           <h2>{titles[0]}</h2>
           <p>
             For this term, I added a dark mode display. Now, viewers can toggle
-            light/dark mode by clicking the button in the top left corner. The
-            reason for this feature was to provide an option to customize the
-            user experience. The option of light or dark mode may be simple when
-            implemented like this, but it makes a big impact especially when a
-            large portion of the screen is affected. A big ongoing conversation
-            at my work place is how we can continue improving the user
-            experience, not only by adding big features, but by ensuring we
-            listen to what our users actually need and want.
+            light/dark mode by clicking the button in the top left corner
+            (please note you may have to open this page in it's own desktop tab
+            for it to work). The reason for this feature was to provide an
+            option to customize the user experience. The option of light or dark
+            mode may be simple when implemented like this, but it makes a big
+            impact especially when a large portion of the screen is affected. A
+            big ongoing conversation at my work place is how we can continue
+            improving the user experience, not only by adding big features, but
+            by ensuring we listen to what our users actually need and want.
             <br />
             <br />
             This topic has been my mind for the past few months, and it was
