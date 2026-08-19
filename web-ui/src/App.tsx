@@ -3,26 +3,54 @@ import { useState } from "react";
 import "./App.css";
 import Artifacts from "./artifacts/Artifacts";
 import "normalize.css";
+import { LightModeIcon } from "./icons/LightModeIcon";
+import { DarkModeIcon } from "./icons/DarkModeIcon";
+
+enum DisplayMode {
+  LIGHT = "light",
+  DARK = "dark",
+}
 
 function App() {
-  const [activeTerm, setActiveTerm] = useState(2);
+  const [activeTerm, setActiveTerm] = useState(3);
+  const [displayMode, setDisplayMode] = useState<DisplayMode>(
+    DisplayMode.LIGHT,
+  );
 
   const onClickTerm = (term: number) => {
     setActiveTerm(term);
   };
 
+  const handleDisplayModeToggle = () => {
+    setDisplayMode((prevMode) =>
+      prevMode === DisplayMode.LIGHT ? DisplayMode.DARK : DisplayMode.LIGHT,
+    );
+  };
+
   return (
-    <div className="App">
+    <div
+      className={`App ${displayMode === DisplayMode.DARK ? "dark-mode" : "light-mode"}`}
+    >
       <div className="mobile-warning">
         <h2>For the best experience, view on a desktop browser</h2>
       </div>
       <header className="App-header">
+        <button
+          className="display-mode-button"
+          onClick={handleDisplayModeToggle}
+        >
+          {displayMode === DisplayMode.LIGHT ? (
+            <DarkModeIcon />
+          ) : (
+            <LightModeIcon />
+          )}
+        </button>
         <div className="header-bubble">
           <h2>Wattpad</h2>
           <h1>Engineering Intern (Web)</h1>
           <h3>ePortfolio by Amanda Zhu</h3>
           <div className="term-buttons-section">
-            Select term to view:
+            Select a term to view its artifacts
             <div className="term-buttons-wrapper">
               <button
                 className={
@@ -46,12 +74,23 @@ function App() {
               >
                 Winter 2026
               </button>
+              <button
+                className={
+                  activeTerm === 3
+                    ? "term-button term-button-active"
+                    : "term-button"
+                }
+                disabled={activeTerm === 3}
+                onClick={() => onClickTerm(3)}
+              >
+                Summer 2026
+              </button>
             </div>
           </div>
           <h6>
             Last Updated
             <br />
-            2026-04-19
+            2026-08-19
           </h6>
         </div>
       </header>

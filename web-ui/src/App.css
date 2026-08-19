@@ -6,8 +6,37 @@
   box-sizing: border-box;
 }
 
-.App-header {
+.light-mode {
   background-color: white;
+}
+
+.dark-mode {
+  background-color: #161616;
+}
+
+.display-mode-button {
+  position: fixed;
+  inset-block-start: 24px;
+  inset-inline-start: 24px;
+  border-radius: 100%;
+  width: fit-content;
+  aspect-ratio: 1 / 1;
+  padding: 12px;
+  border: none;
+  box-shadow: 0 0 8px 8px #38d2c2;
+  background-color: #38d2c2;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.display-mode-button:hover {
+  cursor: pointer;
+  background-color: #9be5d2;
+  box-shadow: 0 0 12px 12px #9be5d2;
+}
+
+.App-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,6 +61,7 @@
 
 .App-header h6 {
   margin-block: 0;
+  font-size: medium;
 }
 
 .header-bubble {
@@ -51,16 +81,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
-  margin-top: 8px;
-  margin-bottom: 40px;
+  gap: 36px;
+  margin-top: 12px;
+  margin-bottom: 48px;
   font-size: large;
   font-weight: bold;
+  color: #c7f5e5;
+  text-shadow: 0 0 1px #9be5d2;
 }
 
 .term-buttons-wrapper {
   display: flex;
-  gap: 60px;
+  gap: 56px;
 }
 
 .term-button {
@@ -70,7 +102,7 @@
   width: 56px;
   padding: 16px;
   background-color: #38d2c2;
-  box-shadow: 0 0 16px 16px #38d2c2;
+  box-shadow: 0 0 18px 18px #38d2c2;
   border-radius: 100%;
   border: none;
   color: white;
@@ -83,7 +115,7 @@
 .term-button:hover {
   cursor: pointer;
   background-color: #9be5d2;
-  box-shadow: 0 0 16px 16px #9be5d2;
+  box-shadow: 0 0 18px 18px #9be5d2;
 }
 
 .term-button-active,
